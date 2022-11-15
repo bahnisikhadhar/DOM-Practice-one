@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listners</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="main_heading">Event Listners</h1>
+
+    <!----------------------1st implementation--------------------------------------------------->
+    <div class="container">
+
+        <div class="boxes box--1">
+           <h1 id="heading">Example1</h1>
+           <button onclick="alert ('I love coding') ">Enter</button>
+        </div>
+    
+        <div class="boxes box--2">
+         <h1 id="heading">Example2</h1>
+         <button class="btn--2">Enter</button>
+        </div>
+
+        <div class="boxes box--3">
+        <h1 id="heading">Example3</h1>
+        <button class="btn--3">Enter</button>
+        </div>
+    </div>
+
+    <!-----------------------2nd implementation----------------------------------------------->
+    <div class="container">
+        <button class="reveal_btn boxes1">Reveal More</button>
+        <div class="hidden_content boxes1">
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur qui explicabo quas nostrum eos nisi quibusdam praesentium magnam sunt, accusantium, odit architecto quia maxime repellendus magni optio vel atque tempora.
+        </div>
+    </div>
+
+    <!----------------------------3rd implementation------------------------------------------->
+<div class="container1">
+    <h1>The onclick Event</h1>
+    <p>Click on the button to open the dropdown menu.</p>
+<div class="dropdown">
+    <button id="myBtn" class="dropbtn">Dropdown</button>
+    <div id="myDropdown" class="dropdown-content">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    </div>
+  </div>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
