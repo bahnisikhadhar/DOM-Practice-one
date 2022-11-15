@@ -23,11 +23,13 @@ const hiddenContent=document.querySelector(".hidden_content");
 
 function revealContent()
 {
-    if(hiddenContent.classList.contains("reveal_btn"))
+    if(hiddenContent.classList.contains("reveal_btn")) 
+    // checks whether it has reveal_btn in css. if present tht means the hidden text is displayed so we will remove reveal_btn to make it display none again
     {
         hiddenContent.classList.remove("reveal_btn");
     }
     else
+    // if reveal_btn not present in css then its hidden_content only and that means it is display none,so,will add reveal_btn in this section so that it becomes display block and we can see the text which is hidden
     {
         hiddenContent.classList.add("reveal_btn");
     }
